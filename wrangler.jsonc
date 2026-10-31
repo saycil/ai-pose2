@@ -1,15 +1,9 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "ai-pose2",
+  "name": "ai-pose-gallery-zh",
   "main": "worker.ts",
-  "compatibility_date": "2026-10-31",
+  "compatibility_date": "2025-10-01",
   "observability": {
     "enabled": true
-  },
-  "assets": {
-    "directory": "./dist",
-    "binding": "ASSETS",
-    "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api/*"]
   }
 }
