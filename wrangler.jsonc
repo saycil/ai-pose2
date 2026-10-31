@@ -1,28 +1,15 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "ai-pose-gallery-zh",
+  "name": "ai-pose2",
   "main": "worker.ts",
-  "compatibility_date": "2025-10-01",
+  "compatibility_date": "2026-10-31",
   "observability": {
     "enabled": true
   },
-  "previews": {},
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
     "run_worker_first": ["/api/*"]
   }
-}
-{
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "ai-pose2",
-  "compatibility_date": "2026-10-31",
-  "assets": {
-    "directory": "./dist"
-  }
-}
-{
-// wrangler.jsonc
-"name": "ai-pose2",
 }
