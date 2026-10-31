@@ -22,3 +22,7 @@
     "directory": "./dist"
   }
 }
+{
+// wrangler.jsonc
+"name": "ai-pose2",
+}
