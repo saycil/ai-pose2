@@ -14,3 +14,11 @@
     "run_worker_first": ["/api/*"]
   }
 }
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ai-pose2",
+  "compatibility_date": "2026-10-31",
+  "assets": {
+    "directory": "./dist"
+  }
+}
